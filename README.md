@@ -46,3 +46,8 @@ To use SZ with Adios, we need to configure Adios with SZ and build:
 ```
 $ ./configure --with-sz=/dir/to/sz
 ```
+
+Then, set Adios' bin direcotry in PATH
+```
+$ export PATH=/dir/to/adios/bin:$PATH
+```
